@@ -1,3 +1,5 @@
-[[redirects]]
+
   from = "https://ourbiotechplanet.artscience-node.com/"
   to = "https://www.ourbiotechplanet.artscience-node.com/"
+  status = 301
+  force = false
