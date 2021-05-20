@@ -1,23 +1,26 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-  }
-  #bg{
-    position: fixed;
-    top: 0;
-    left: 0;
-    /*Preserve aspect ratio*/
-    max-width: 100%;
-    min-width: 100%;
-    height: 100%;
-  
-  }
-  #level_3 {
-    -webkit-user-select: none; 
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+body {
+  background-color: black;
+}
+
+#bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /*Preserve aspect ratio*/
+  max-width: 100%;
+  min-width: 100%;
+  height: 52vw;
+}
+#level_3 {
+  -webkit-user-select: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
